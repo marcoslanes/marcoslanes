@@ -1,4 +1,8 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red)
 
 <!-- TODO-IST:START -->
+🏆  2,292 Karma Points           
+🌸  Completed 0 tasks today           
+✅  Completed 52 tasks so far           
+⏳  Longest streak is 1 days
 <!-- TODO-IST:END -->
