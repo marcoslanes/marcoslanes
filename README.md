@@ -1,3 +1,5 @@
+<img src=giphy.gif width="343" height="480" frameBorder="0">
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red)
 
 <!-- TODO-IST:START -->
