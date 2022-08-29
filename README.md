@@ -1,16 +1,22 @@
-### Hi there 👋
+![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red)
 
-<!--
-**marcoslanes/marcoslanes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- TODO-IST:START -->
+name: Todoist Readme
 
-Here are some ideas to get you started:
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every minute
+    - cron: "* * * * *"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+jobs:
+  update-readme:
+    name: Update todoist stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: abhisheknaiidu/todoist-readme@master
+        with:
+          TODOIST_API_KEY: ${{c1ef8408ed19ed548887e7de2dd227b6b44ea0d9}}
+          PREMIUM: ""
+<!-- TODO-IST:END -->
