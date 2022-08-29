@@ -17,6 +17,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: abhisheknaiidu/todoist-readme@master
         with:
-          TODOIST_API_KEY: ${{c1ef8408ed19ed548887e7de2dd227b6b44ea0d9}}
+          TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
           PREMIUM: ""
 <!-- TODO-IST:END -->
